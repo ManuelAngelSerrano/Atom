@@ -1,0 +1,11 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  "exception-reporting":
+    userId: "e54726cb-6c4e-e830-026b-8bdbfac47eb1"
+  welcome:
+    showOnStartup: false
