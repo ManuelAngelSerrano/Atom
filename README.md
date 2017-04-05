@@ -7,7 +7,6 @@ You can download Atom Editor from http://atom.io
 You need to install these packages:
 
 + atom-monokai
-+ ex-mode
 + file-icons
 + jump-to-line
 + jumpy
@@ -17,20 +16,21 @@ You need to install these packages:
 + minimap
 + monokai
 + tidy-markdown
-+ vim-mode
-+ vim-mode-visual-block
-+ vim-surround
++ vim-mode-plus
++ vim-mode-plus-ex-mode
++ vim-mode-plus-keymaps-forsurround
 
 And config keymap.cson with:
 ~~~
-'atom-text-editor.vim-mode.normal-mode':
+'atom-text-editor.vim-mode-plus.normal-mode':
   ', b': 'fuzzy-finder:toggle-buffer-finder'
   ', f': 'fuzzy-finder:toggle-file-finder'
   ', p': 'command-palette:toggle'
   ', t': 'command-palette:toggle'
   ', w': 'core:save'
   ', q': 'core:close'
-  ', .': 'ex-mode:open'
+  ', , q': 'application:quit'
+  ', .': 'vim-mode-plus-ex-mode:open' #'ex-mode:open'
   ', e': 'application:open'
   ', s': 'vim-mode:search'
   ', S': 'vim-mode:reverse-search'
