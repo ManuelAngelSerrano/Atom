@@ -6,20 +6,20 @@ You can download Atom Editor from http://atom.io
 
 You need to install these packages:
 
- atom-monokai
- ex-mode
- file-icons
- jump-to-line
- jumpy
- language-latex
- latexer
- markdown-writer
- minimap
- monokai
- tidy-markdown
- vim-mode
- vim-mode-visual-block
- vim-surround
++ atom-monokai
++ ex-mode
++ file-icons
++ jump-to-line
++ jumpy
++ language-latex
++ latexer
++ markdown-writer
++ minimap
++ monokai
++ tidy-markdown
++ vim-mode
++ vim-mode-visual-block
++ vim-surround
 
 And config keymap.cson
 
