@@ -33,23 +33,25 @@
 
 ###################
 # Hay que instalar:
-#   vim-mode
-#   ex-mode
+#   vim-mode-plus
+#   vim-mode-plus-ex-mode
+#   vim-mode-plus-keymaps-for-surround
 #   command-palette
 #   jump-to-line
 #   jumpy
 ###################
-'atom-text-editor.vim-mode.normal-mode':
+'atom-text-editor.vim-mode-plus.normal-mode':
   ', b': 'fuzzy-finder:toggle-buffer-finder'
   ', f': 'fuzzy-finder:toggle-file-finder'
   ', p': 'command-palette:toggle'
   ', t': 'command-palette:toggle'
   ', w': 'core:save'
   ', q': 'core:close'
-  ', .': 'ex-mode:open'
+  ', , q': 'application:quit'
+  ', .': 'vim-mode-plus-ex-mode:open' #'ex-mode:open'
   ', e': 'application:open'
-  ', s': 'vim-mode:search'
-  ', S': 'vim-mode:reverse-search'
+  ', s': 'vim-mode-plus:search'
+  ', S': 'vim-mode-plus:search-backwards'
   ', , j': 'jump-to-line:start'
   ', , k': 'jump-to-line:start'
   ', , f': 'jumpy:toggle'
@@ -58,3 +60,4 @@
   ', , T': 'jumpy:toggle'
   ', , w': 'jumpy:toggle'
   ', c i': 'editor:toggle-line-comments'
+  'Z Z': 'sq:saveAndClose'
