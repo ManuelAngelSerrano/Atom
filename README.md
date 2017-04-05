@@ -23,7 +23,6 @@ You need to install these packages:
 
 And config keymap.cson with:
 ~~~
-
 'atom-text-editor.vim-mode.normal-mode':
   ', b': 'fuzzy-finder:toggle-buffer-finder'
   ', f': 'fuzzy-finder:toggle-file-finder'
@@ -46,5 +45,5 @@ And config keymap.cson with:
 ~~~
 
 Last you need to need to set
-UI Theme: One Dark
-Syntax Theme: Monokai
++ UI Theme: One Dark
++ Syntax Theme: Monokai
