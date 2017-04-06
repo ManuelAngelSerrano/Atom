@@ -3,9 +3,21 @@
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "monokai"
+      "monokai-shade"
     ]
+  editor:
+    invisibles: {}
   "exception-reporting":
-    userId: "e54726cb-6c4e-e830-026b-8bdbfac47eb1"
+    userId: "2131bf05-7b47-970f-245c-f117ebe2696f"
+  "vim-mode-plus":
+    clearHighlightSearchOnResetNormalMode: true
+    clearPersistentSelectionOnResetNormalMode: true
+    highlightSearch: true
+    ignoreCaseForSearch: true
+    ignoreCaseForSearchCurrentWord: true
+    incrementalSearch: true
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+    useSmartcaseForSearchCurrentWord: true
   welcome:
     showOnStartup: false
