@@ -61,3 +61,5 @@
   ', , T': 'jumpy:toggle'
   ', , w': 'jumpy:toggle'
   ', c i': 'editor:toggle-line-comments'
+  'U': 'vim-mode-plus:redo'
+  
