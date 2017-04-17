@@ -15,6 +15,7 @@ You need to install these packages:
 + markdown-writer
 + minimap
 + monokai
++ relative-numbers (Mark also: Show absolute numbers)
 + tidy-markdown
 + vim-mode-plus
 + vim-mode-plus-ex-mode
@@ -42,6 +43,8 @@ And config keymap.cson with:
   ', , T': 'jumpy:toggle'
   ', , w': 'jumpy:toggle'
   ', c i': 'editor:toggle-line-comments'
+  ', v': 'editor:toggle-soft-wrap'
+  'U': 'vim-mode-plus:redo'  
 ~~~
 
 Last you need to need to set
