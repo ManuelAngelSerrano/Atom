@@ -16,6 +16,7 @@ You need to install these packages:
 + minimap
 + monokai
 + relative-numbers (Mark also: Show absolute numbers)
++ swackets (Mark All - Rainbow parens)
 + tidy-markdown
 + vim-mode-plus
 + vim-mode-plus-ex-mode
