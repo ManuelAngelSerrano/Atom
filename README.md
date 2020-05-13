@@ -21,6 +21,7 @@ You need to install these packages:
 + vim-mode-plus
 + vim-mode-plus-ex-mode
 + vim-mode-plus-keymaps-forsurround
++ ex-mode
 
 And config keymap.cson with:
 ~~~
